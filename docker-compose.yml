@@ -6,4 +6,4 @@ services:
             - "80:80"
             - "443:443"
         volumes: 
-            - "./web-data:/var/www/html"
+            - "./web-data:/usr/local/apache2/htdocs"
